@@ -7,7 +7,7 @@ Assignment 21 - deep-learning-challenge
 
 o	Data Preprocessing
 What variable(s) are the target(s) for your model? Target variable = IS_SUCCESSFUL -- 1 is considered yes (successful) and 0 is considered no (not successful)
-What variable(s) are the features for your model? Features = there are 9 features - all the other columns
+What variable(s) are the features for your model? Features = there are 9 features - all the other columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT)
 What variable(s) should be removed from the input data because they are neither targets nor features? 'EIN', 'NAME'- non-beneficial ID columns
 
 o	Compiling, Training, and Evaluating the Model
